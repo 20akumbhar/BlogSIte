@@ -88,6 +88,7 @@ header ul li{
     position: relative;
 }
 header ul li a{
+
     display: block;
     padding: 21px;
     text-decoration: none;
@@ -457,6 +458,7 @@ header ul li ul{
 }
 header ul li ul li a{
     color: white;
+    width: 100%;
     padding-left: 70px;
 }
 header .menu-toggle{

@@ -18,7 +18,8 @@
         </div>
         <i class="fa fa-bars menu-toggle"></i>
         <ul class="nav showing">
-            <li><a href="index.html">New</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="new.html">New</a></li>
             <li><a href="trending.html">Trending</a></li>
             <li><a href="#" class="active">Posts</a></li>
             <li><a href="topics.html">Topics</a></li>
@@ -37,28 +38,23 @@
             <h2>Recent Posts</h2>
             <hr>
         </div>
-        <div class="post-area">
-            
-            <div class="post">
-                <img src="../images/image_10.jpg" alt="post img" class="post-img">
-                <div class="post-preview">
-                    <div class="post-title">
-                        <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis earum, unde impedit
-                            consequatur neque dolores.</h3>
-                    </div>
-                    <i class="far fa-folder">&nbsp;Traval</i>
-                    <i class="far fa-calendar">&nbsp;20/02/1999</i>
-                    <button class="delete-btn">Delete</button>
-                    <button class="edit-btn">Edit</button>
-                </div>
-            </div>
-           
-        </div>
+        <div class="post-area" id="post-area">
+          </div>
+    </div>
     </div>
 
+    <script src="/__/firebase/7.6.1/firebase-app.js"></script>
+    <script src="/__/firebase/7.6.1/firebase-analytics.js"></script>
+    <script src="/__/firebase/7.6.1/firebase-firestore.js"></script>
 
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
 </body>
 <script src="../js/jquery.js"></script>
+<script>
+    var db = firebase.firestore();
+</script>
+<script src="js/posts.js"></script>
 
 
 </html>
