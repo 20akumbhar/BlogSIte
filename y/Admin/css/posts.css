@@ -1,0 +1,57 @@
+.main-content{
+    width: 95%;
+}
+h2,h3{
+    padding: 0px;
+    margin: 0px;
+}
+.main-content .post-title{
+    text-align: center;
+}
+.main-content .post-area .post{
+    display: inline-block;
+    width: 200px;
+    margin-left: 4px;
+    margin-bottom: 8px;
+    background: white;
+}
+.main-content .post-area .post .post-preview{
+    width: 200px;
+    margin-left: 4px;
+    text-align: left;
+}
+.main-content .post-area .post .post-preview .post-title{
+    text-align: left;
+    width: 200px;
+    max-height: 44px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.main-content .post-area .post .post-img{
+    width: 200px;
+    height: 150px;
+}
+.main-content .post-area .post .post-preview .delete-btn{
+    padding: .2rem .4rem;
+    background: rgb(255, 77, 77);
+    border: 1px solid transparent;
+    color: white;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.main-content .post-area .post .post-preview .delete-btn:hover{
+    background: rgb(136, 35, 35);
+}
+.main-content .post-area .post .post-preview .edit-btn{
+    padding: .2rem .4rem;
+    background: rgb(50, 38, 121);
+    border: 1px solid transparent;
+    color: white;
+    cursor: pointer;
+    margin: 4px;
+    border-radius: 5px;
+}
+.main-content .post-area .post .post-preview .edit-btn:hover{
+    background: rgb(32, 24, 82);
+}

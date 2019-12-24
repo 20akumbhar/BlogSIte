@@ -1,0 +1,79 @@
+.main-content{
+    width: 90%;
+}
+table{
+    margin: 2px auto;
+    align-content: center;
+    width: 49%;
+    display: inline-block;
+}
+table thead td{
+    font-size: 1.4em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+text-align: center;
+}
+table tbody tr td .post .post-img{
+    display: inline-block;
+    position: relative;
+}
+table tbody tr td .post h4{
+    right: 4px;
+    margin-top: 0px;
+    margin-left: 4px;
+}
+table tbody tr td {
+    border-radius: 5px;
+    background: white;
+    width: 90%;
+    right: auto;
+    left: auto;
+    margin: 2px auto;
+    margin-bottom: 6px;
+}
+table tbody tr td .post{
+    padding: 10px;
+    width: 100%;
+}
+table tbody tr td .post .post-preview{
+    float: right;
+}
+table tbody tr td .post .post-preview i{
+    margin-left: 4px;
+}
+
+table tbody tr td .post .post-preview .btn{
+    padding: .5rem .6rem;
+    background: rgb(255, 77, 77);
+    border: 1px solid transparent;
+    color: white;
+    margin: 4px;
+    border-radius: 5px;
+}
+.avail-posts tbody tr td .post .post-preview .btn{
+    background: rgb(34, 170, 75);
+}
+.avail-posts tbody tr td .post .post-preview .btn:hover{
+    background: rgb(25, 136, 59);
+}
+table tbody tr td .post .post-preview .btn:hover{
+    background: rgb(204, 24, 24);
+}
+
+@media only screen and (max-width: 940px){
+    table{
+        border: none;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 470px){
+    table tbody tr td .post .post-preview{
+width: 100%;
+    }
+    table tbody tr td .post .post-preview .btn{
+        width: 100%;
+    }
+    table tbody tr td .post .post-img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

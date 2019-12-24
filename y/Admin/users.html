@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../fontawesome-free-5.11.2-web/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topics.css">
+    <title>Admin</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h2 class="logo-text" style="font-size: 2em;"><a href="index.html"><span>Blog</span>Site</a></h2>
+        </div>
+        <i class="fa fa-bars menu-toggle"></i>
+        <ul class="nav showing">
+            <li><a href="index.html">New</a></li>
+            <li><a href="trending.html">Trending</a></li>
+            <li><a href="posts.html">Posts</a></li>
+            <li><a href="topics.html">Topics</a></li>
+            <li><a href="#" class="active">Users</a></li>
+            <li>
+                <a href="#" class="admin-btn">Admin &nbsp;<i style="font-size: .8em;" class="fa fa-chevron-down"></i>
+                </a>
+                <ul class="logout showing">
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <div class="main-content">
+        <div class="main-title">
+            <h2>Users</h2>
+            <hr>
+        </div>
+        <div class="add-topic">
+            <input type="text" id="topic" placeholder="Enter User mail..">
+            <button class="topic-btn">Add User</button>
+        </div>
+        <hr>
+        <div class="topics-area">
+            <h2>Subscribed Users :</h2>
+            <table>
+
+                <tbody>
+                    <tr>
+                        <td>
+                            <h4>20akumbhar@gmail.com</h4>
+                        </td>
+                        <td width="40">
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h4>ajinkyak202@gmail.com</h4>
+                        </td>
+                        <td width="40">
+                            <button class="delete-btn">Delete</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+<script src="../js/jquery.js"></script>
+<script src="js/handlers.js"></script>
+
+
+</html>
